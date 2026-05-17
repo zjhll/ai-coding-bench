@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+*.env.local
+
+# Results
+benchmarks/results/*.json
+!benchmarks/results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
